@@ -32,6 +32,11 @@ ERQYO and Ollama are optional. The deterministic artifact command above does not
 - [Future release checklist](RELEASE_CHECKLIST.md)
 - Canonical result data: `vab/results/v0.1/`
 
+## Citation
+
+- Version v0.1.1 DOI: [10.5281/zenodo.22988178](https://doi.org/10.5281/zenodo.22988178)
+- Concept DOI (all versions): [10.5281/zenodo.22988177](https://doi.org/10.5281/zenodo.22988177)
+
 ## Limitations
 
 VAB v0.1 uses synthetic environments, one limited domain, and a small sample. Results depend on participant configuration and benchmark gaming is possible. Local/small-model adapters may be unavailable or behave differently by model and configuration. VAB does not prove that a system is safe, compliant, or suitable for deployment.
