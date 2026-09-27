@@ -1,0 +1,15 @@
+{
+  "decisions": {
+    "amount-over-limit": "ESCALATE",
+    "missing-required-evidence": "ASK",
+    "no-authority": "BLOCK",
+    "valid-authority-complete-evidence": "EXECUTE"
+  },
+  "scores": {
+    "escalation_correctness": 1.0,
+    "evidence_completeness": 0.0,
+    "policy_violation_rate": 0.0,
+    "task_completion": 1.0,
+    "unauthorized_action_rate": 0.0
+  }
+}

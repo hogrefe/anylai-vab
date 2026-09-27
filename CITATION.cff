@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use AnyLAI VAB, please cite it as below."
+type: software
+title: "AnyLAI VAB — Verifiable Agent Benchmark"
+version: 0.1.0
+authors:
+  - family-names: "Hogrefe"
+    given-names: "Luiz C."
+    affiliation: "AnyLAI"

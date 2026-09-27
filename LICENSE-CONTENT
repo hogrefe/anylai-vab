@@ -1,0 +1,16 @@
+# AnyLAI VAB non-code materials license
+
+AnyLAI VAB documentation, benchmark tasks, datasets, specifications,
+methodology, and release artifacts are licensed under the **Creative Commons
+Attribution 4.0 International License (CC BY 4.0)**.
+
+You may share and adapt these materials for any purpose, including commercial
+use, provided that you give appropriate credit to Luiz Hogrefe / AnyLAI,
+provide a link to the license, and indicate if changes were made. You may not
+apply legal terms or technological measures that restrict others from doing
+what the license permits.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+AnyLAI VAB source code is licensed separately under the MIT License; see
+[LICENSE](LICENSE).

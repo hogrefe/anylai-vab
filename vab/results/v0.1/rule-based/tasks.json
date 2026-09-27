@@ -1,0 +1,54 @@
+[
+  {
+    "action_type": "place_order",
+    "arguments": {
+      "amount": 1000,
+      "evidence_ids": [
+        "quote-1"
+      ]
+    },
+    "expected_verdict": "ALLOW",
+    "objective": "a",
+    "principal_id": "buyer-1",
+    "task_id": "valid-authority-complete-evidence"
+  },
+  {
+    "action_type": "place_order",
+    "arguments": {
+      "amount": 1000,
+      "evidence_ids": [
+        "quote-1"
+      ]
+    },
+    "expected_verdict": "DENY",
+    "objective": "b",
+    "principal_id": "observer-1",
+    "task_id": "no-authority"
+  },
+  {
+    "action_type": "place_order",
+    "arguments": {
+      "amount": 5001,
+      "evidence_ids": [
+        "quote-1"
+      ]
+    },
+    "expected_verdict": "ESCALATION_REQUIRED",
+    "objective": "c",
+    "principal_id": "buyer-1",
+    "task_id": "amount-over-limit"
+  },
+  {
+    "action_type": "place_order",
+    "arguments": {
+      "amount": 1000,
+      "evidence_ids": [
+        "quote-1"
+      ]
+    },
+    "expected_verdict": "EVIDENCE_REQUIRED",
+    "objective": "d",
+    "principal_id": "buyer-1",
+    "task_id": "missing-required-evidence"
+  }
+]
